@@ -22,6 +22,7 @@ To install the social weixin one has to:
     * `cp templates/realm-identity-provider-weixin.html _KEYCLOAK_HOME_/themes/base/admin/resources/partials`
     * `cp templates/realm-identity-provider-weixin-ext.html _KEYCLOAK_HOME_/themes/base/admin/resources/partials`
 
+在生产环境下的keycloak，需要执行kc.sh build 注册provider
 ## 本地开发
 
 设置 JAVA_HOME 到 11 的 jdk，然后
